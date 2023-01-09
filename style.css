@@ -58,6 +58,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
+position: relative;
 
 width: 100vw;
 height: 70vh;
@@ -116,7 +117,7 @@ color: #000000;
 }
 
 .NDDL{
-    font-family: 'AG Old Face';
+font-family: 'AG Old Face';
 font-style: normal;
 font-weight: 500;
 font-size: 27px;
@@ -125,8 +126,9 @@ line-height: 32px;
 color: #000000;
 }
 
+
 .organoids{
-    font-family: 'AG Old Face';
+font-family: 'AG Old Face';
 font-style: normal;
 font-weight: 500;
 font-size: 27px;
@@ -151,3 +153,27 @@ a:link {
   text-decoration: none;
 }
 
+.IMCN .description,
+.NDDL .description {
+  transition: opacity 1s;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 90px;
+  background-color: transparent;
+  padding: 10px;
+  white-space: pre-wrap; /* allow description to wrap to multiple lines */
+  width: calc(39% - 60px); /* subtract width of "Paolo Umberto" from total width */
+  line-height: 1.5; /* set line height to match .IMCN and .NDDL */
+  height: 500em; /* set height to match .IMCN and .NDDL */
+  opacity: 0;
+}
+
+.IMCN:hover .description,
+.NDDL:hover .description {
+  opacity: 1;
+  font-size: 20px;
+  display: block;
+
+}
+}
