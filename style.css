@@ -103,6 +103,7 @@ font-weight: 500;
 font-size: 27px;
 line-height: 32px;
 
+
 color: #000000;
 }
 
@@ -147,7 +148,7 @@ a:link {
 .NDDL .description {
   font-size: 20px;
   transition: opacity 0.5s;
-  display: inline-block;
+  display: none;
   position: absolute;
   right: 0;
   top: 90px;
