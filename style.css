@@ -155,8 +155,9 @@ a:link {
 
 .IMCN .description,
 .NDDL .description {
-  transition: opacity 1s;
-  display: none;
+  font-size: 20px;
+  transition: opacity 0.5s;
+  display: inline-block;
   position: absolute;
   right: 0;
   top: 90px;
@@ -173,7 +174,8 @@ a:link {
 .NDDL:hover .description {
   opacity: 1;
   font-size: 20px;
-  display: block;
+  display: inline-block;
+
 
 }
 }
