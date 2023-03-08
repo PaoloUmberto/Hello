@@ -167,11 +167,13 @@ a:link {
 
 }
 .IMCN .description,
+.LT .description,
 .NDDL .description {
     top: 200px;
     right: 25px;
 }
 .IMCN:hover .description,
+.LT:hover .description,
 .NDDL:hover .description {
 
   opacity: 1;
