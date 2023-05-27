@@ -4,13 +4,41 @@
     font-weight: normal;
     font-style: normal;
 }
-
-:root{
+:root {
 --main-bg: #E8CCB8;
 --text-bg: #261A1C;
+--hover-bg: #61221d;
 }
 
-* {
+.lightmode{
+--main-bg: #E8CCB8;
+--text-bg: #261A1C;
+--hover-bg: #61221d;
+}
+
+.darkmode{
+--main-bg: #34282A;
+--text-bg: #E2BB9B;
+--hover-bg: #5A4A3D;
+}
+
+
+.dark-mode-toggle {
+  position: absolute;
+  z-index: 100;
+  top: 40em;
+  right: 4.2em;
+  color: var(--text-bg);
+  border: 2px solid currentColor;
+  padding: 4px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.page {
 background-color: var(--main-bg);
 }
 
@@ -145,7 +173,7 @@ a:visited {
 }
 
 a:hover {
-  color: #61221d;
+  color: var(--hover-bg);
 }
 
 a:link {
