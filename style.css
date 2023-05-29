@@ -194,7 +194,7 @@ a:link {
   white-space: pre-wrap; /* allow description to wrap to multiple lines */
   width: calc(35% - 60px);
   line-height: 1.5;
-  height: 500em;
+  height: 14em;
   transition: opacity 0.5s;
   pointer-events: none;
 
@@ -202,8 +202,8 @@ a:link {
 .IMCN .description,
 .LT .description,
 .NDDL .description {
-    top: 45px;
-    right: 25px;
+    top: 29%;
+    right: 2%;
 }
 .IMCN:hover .description,
 .LT:hover .description,
