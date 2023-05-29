@@ -37,6 +37,19 @@ darkModeToggle.addEventListener('click', () => {
   }
 });
 
+const pippoButton = document.getElementById('pippo-button');
+const pippoSvg = document.getElementById('pippo-svg');
+
+function rotateSvg() {
+  pippoSvg.classList.toggle('rotate-180');
+}
+
+// When someone clicks the button
+pippoButton.addEventListener('click', () => {
+  rotateSvg();
+  scrollToBottom();
+});
+
 function scrollToBottom() {
   const pippoSection = document.getElementById('pippo-section');
   const scrollTo = pippoSection.scrollHeight - window.innerHeight;
