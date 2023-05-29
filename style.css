@@ -26,7 +26,7 @@
 .dark-mode-toggle {
   position: absolute;
   z-index: 100;
-  top: 40em;
+  bottom: 10vh;
   right: 4.2em;
   color: var(--text-bg);
   border: 2px solid currentColor;
@@ -52,6 +52,7 @@ flex-direction: column;
 align-items: center;
 margin: 0px 50px;
 overflow: hidden;
+height: 100vh
 }
 
 .Frame1 {
@@ -95,13 +96,13 @@ width: auto; /* automatically adjust the width based on the content */
 }
 
 .Frame2{
-padding-top: 80px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 position: relative;
 width: 100vw;
+height: 80vh;
 }
 
 .box_frame2{
@@ -213,5 +214,53 @@ a:link {
 
 }
 
+#pippo-section {
+  position: relative;
+  height: 180vh;
+  background-color: var(--main-bg);
+  display: flex;
+  justify-content: center;
+}
 
+#pippo-button {
+  position: absolute;
+  z-index: 100;
+  bottom: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--text-bg);
+  border: 2px solid currentColor;
+  padding: 4px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+}
 
+/* Hide scrollbar */
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+/* Disable scrolling */
+body {
+  overflow: hidden;
+}
+
+.text-box {
+  height: 20vh;
+  text-align: center;
+  margin-top: 30vh;
+}
+
+.text-box input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  color: var(--text-bg);
+  border: 2px solid currentColor;
+  background: transparent;
+  border-radius: 5px;
+  font-size: 16px;
+}

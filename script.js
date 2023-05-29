@@ -36,3 +36,23 @@ darkModeToggle.addEventListener('click', () => {
     disableDarkMode();
   }
 });
+
+function scrollToBottom() {
+  const pippoSection = document.getElementById('pippo-section');
+  const scrollTo = pippoSection.scrollHeight - window.innerHeight;
+  const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (currentScroll < scrollTo) {
+    // Scroll to the bottom
+    window.scrollTo({
+      top: scrollTo,
+      behavior: 'smooth'
+    });
+  } else {
+    // Scroll to the original position
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+}

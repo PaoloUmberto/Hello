@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>PaoloAgliati</title>
 </head>
-<body class = "page light">
+<body class = "page light" onwheel="return false;">
 
 <button id="dark-mode-toggle" class="dark-mode-toggle">
   <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496"><path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/></svg>
@@ -34,7 +34,6 @@
         <div class="cv">
                 <a href="docs/CV_Paolo_Umberto_Agliati.pdf" target="_blank">Curriculum Vitae
                 </a>
-
             </div>
         <div class="ac_wr">
                 <a href="ac_wr.html"> Recent Projects
@@ -42,6 +41,12 @@
             </div>
             </div>
     </div>
+</div>
+<button id="pippo-button" class="scroll-button" onclick="scrollToBottom()"></button>
+<div id="pippo-section">
+  <div class="text-box">
+    <input type="text" placeholder="Friend's section password" />
+  </div>
 </div>
 <script src="script.js"></script>
 </body>
