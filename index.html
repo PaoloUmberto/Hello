@@ -52,8 +52,15 @@
 </button>
 <div id="pippo-section">
   <div class="text-box">
-            <input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
-			<button id="loginbutton" type="button">Enter</button>
+            <input style="margin: 16px; text-align: center; padding: 10px;
+            width: 300px;
+            color: var(--text-bg);
+            border: 2px solid currentColor;
+            background-color: var(--main-bg);
+            border-radius: 5px;
+            font-size: 16px;
+            font-family: 'AG Old Face';" id="password" type="password" placeholder="friend's section password" /> <br />
+			<!-- <button id="loginbutton" type="button">Enter</button> -->
 			<p id="wrongPassword" style="display: none">wrong password</p>
   </div>
 </div>
@@ -94,9 +101,9 @@
 	}
 
 
-	$("#loginbutton").on("enter", function() {
-		loadPage($("#password").val());
-	});
+	// $("#loginbutton").on("enter", function() {
+	// 	loadPage($("#password").val());
+	// });
 	$("#password").keypress(function(e) {
 		if (e.which == 13) {
 

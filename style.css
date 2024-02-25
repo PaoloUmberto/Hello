@@ -269,6 +269,7 @@ body {
 .text-box {
   height: 20vh;
   text-align: center;
+  background-color: var(--main-bg);
   margin-top: 30vh;
 }
 
@@ -277,7 +278,7 @@ body {
   width: 300px;
   color: var(--text-bg);
   border: 2px solid currentColor;
-  background: transparent;
+  background-color: var(--main-bg);
   border-radius: 5px;
   font-size: 16px;
   font-family: 'AG Old Face';
