@@ -50,6 +50,8 @@ pippoButton.addEventListener('click', () => {
   scrollToBottom();
 });
 
+
+
 function scrollToBottom() {
   const pippoSection = document.getElementById('pippo-section');
   const scrollTo = pippoSection.scrollHeight - window.innerHeight;
