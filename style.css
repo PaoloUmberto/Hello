@@ -255,6 +255,11 @@ a:link {
   transition: transform 0.6s ease-in-out;
 }
 
+#pippo-svg {
+  transition: transform 0.6s ease-in-out; /* Smooth transition for rotation */
+}
+
+
 /* Hide scrollbar */
 body {
   scrollbar-width: none; /* Firefox */
