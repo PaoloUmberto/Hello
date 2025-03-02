@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ciao</title>
+    <meta name="description" content="Scritti">
+    <meta name="color-scheme" content="dark light">
+    <style>
+        body {
+            font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #34282A;
+            overflow-y: scroll
+        }
+
+        .limiter,
+        main {
+            max-width: 640px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        a {
+            color: #34282A
+        }
+
+        p {
+            text-align: justify
+        }
+
+        blockquote {
+            font-style: italic
+        }
+
+        .subtitle {
+            font-weight: 400
+        }
+
+        h1:first-child {
+            margin-top: 0
+        }
+
+        h1 small {
+            display: block;
+            font-size: 1rem;
+            font-weight: 400;
+            margin-top: 5px
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin-bottom: .5rem;
+            line-height: 1.25
+        }
+
+        code {
+            font-family: sf mono, Menlo, Consolas, monospace;
+            overflow: auto
+        }
+
+        .books {
+            display: grid;
+            grid-row-gap: 5px;
+            grid-template-columns: 1fr .45fr min-content;
+            margin-bottom: 16px
+        }
+
+        .books>div {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis
+        }
+
+        .books time {
+            padding-right: .25em;
+            font-variant-numeric: tabular-nums;
+            white-space: pre
+        }
+
+        .books a,
+        .writing a {
+            font-weight: 500
+        }
+
+        hr {
+            height: 1px;
+            background: #34282A;
+            border: 0
+        }
+
+        .natural-language {
+            display: none
+        }
+
+        .label {
+            border-bottom: 1px solid
+        }
+
+        [title] {
+            border-bottom: 1px dotted
+        }
+
+        @media screen and (prefers-color-scheme:dark) {
+            a {
+                color: #fff
+            }
+
+            hr {
+                background: #fff
+            }
+        }
+
+        @media screen and (min-width:1100px) {
+            nav {
+                position: absolute;
+                right: 50%;
+                margin-right: 340px !important
+            }
+
+            nav hr {
+                display: none
+            }
+
+            hr {
+                background: #34282A
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+
+            .limiter,
+            main {
+                width: auto;
+                padding: 0
+            }
+
+            body {
+                padding: 0
+            }
+
+            hr {
+                margin-top: 0
+            }
+
+            .books {
+                grid-template-columns: 1fr;
+                grid-row-gap: 0;
+                margin-bottom: 0
+            }
+
+            .books div {
+                white-space: normal
+            }
+
+            .books .title:not(:nth-of-type(4)) {
+                padding-top: 16px
+            }
+
+            .books time {
+                padding-bottom: 16px
+            }
+
+            .books time:not(:last-of-type) {
+                border-bottom: 1px solid
+            }
+
+            .iso-8601 {
+                display: none
+            }
+
+            .natural-language {
+                display: grid
+            }
+
+            .title {
+                font-style: italic
+            }
+
+            .label {
+                display: none
+            }
+
+            .author:before {
+                content: "by "
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="limiter">
+        <ul style="list-style:none;padding:0;margin:0">
+            <li><a href="../index.html">Ciao!</a></li>
+            <li><a href="../songs.html">Songs</a></li>
+            <li><a href="../scritti.html">Scritti</a></li>
+            <li><a href="../readings.html">Readings</a></li>
+        </ul>
+        <hr>
+    </nav>
+
+    <main>
+        <h1>Scritti</h1>
+        <h2 id="one title">Le discese (provvisorio) e altri scritti</h2>
+
+        <p><b>---</b></p>
+        Ho sognato una donna dal vestito rosso,<br>
+dai capelli neri,<br>
+dagli scuri occhi immensi tersi di un lume candido e sciolto. <br>
+Il suo sguardo scandiva i pomeriggi della mia quiete. <br>
+Il suo tocco era un rifugio pratico dal torpore degli affanni e dalla puntura delle stasi. <br>
+Il suo viso, il suo corpo erano tavole neutre al servizio dei suoi movimenti, delle sue espressioni fidate e sincere. <br>
+La sua voce era il riposo della mia voce. Immerse nella musica sotto un portico al crepuscolo, suonavano in un sussurro vivace alcune sue parole. <br>
+"Mi dispiace" si scioglieva nella mia gola come un miele brillante di tristezza ed accudimento. <br>
+"Vedrai" si apriva come una selva umida di speranza fuori dalla grotta delle mie disillusioni. <br>
+Teneva i miei avambracci tra le sue mani riservate e delicatissime, e la mia vita tra i suoi ricordi più intimi. <br>
+I miei simboli erano al sicuro tra le fibre della sua indole, tra le ombre dei suoi brevi silenzi che la presentavano a me, ad ogni occasione, come un nuovo amore grande ed improvviso. <br>
+Io rimanevo immobile in un ascolto incondizionato, ignorando quasi del tutto il senso testuale del suo messaggio. <br>
+Ma ne ero vissuto: in esso mi rispecchiavo e senza di esso avrei perso l'abilità di sentire, di individuarmi. <br>
+Usando un'eleganza aliena mi lasciava andare, poiché sapeva che da solo non ne sarei stato in grado. <br>
+Andarsene era quindi ragionevole come la fine di un discorso, ma impossibile, <br>
+come rinunciare al bacio denso impresso da un sole d'ambra sul sudore secco della propria pelle infantile. <br>
+Fu il tempo a scortarmi fuori di lì, nei tremiti di un contesto bruscamente diverso. <br>
+Ad oggi, la garza candida del ricordo di lei custodisce la ferita che lei stessa aprì, <br>
+rieleggendo la bellezza a giudice intrepido del mio cuore. <br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>---</b></p>
+        L'avida ruvidità della mancanza<br>
+fa presa su ogni aspetto<br>
+della propria incredula bolla cardiaca. <br>
+Stringe le braccia e riempie il petto<br>
+con una forza quasi materna.<br>
+Rinnega le voci annodate degli altri e i loro inciampi.<br>
+Marca una merla,<br>
+il suo gemito nero nel manto verde del prato.<br>
+La pioggia investe noi due animali soli.<br>
+I boati lontani del tempo andato<br>
+solcano i tuoi occhi amari,<br>
+adagiati nel sostegno informe del nostro amore muto. <br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>L'arrivo segreto</b></p>
+        Quello che cerco nell'amore <br>
+non è il trionfo della situazione,<br>
+ma il dettaglio oscuro e mancante.<br>
+La finezza del mosaico cutaneo <br>
+di lei, sotto il lumeggiare arancio del pomeriggio.<br>
+L'osservarla dal punto focale di un abbraccio che la nasconde allo sguardo,<br>
+palesandola invece al tatto dell'anima. <br>
+Sentire i suoi occhi posati e comodi sul dorso felice del proprio cuore. <br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>---</b></p>
+        Una persona candida lo è al di là delle proprie parole.<br>
+Alle volte, persino al di là delle proprie azioni:<br>
+nello slancio delle sue volontà e nella quiete dei suoi innati riflessi umani.<br>
+L'amore di una persona candida è in larga parte gestione dell'assenza. <br>
+Che permette all'amato di nascondersi tra i propri contrasti, e ad entrambi di rimanere universali, esposti alle loro rispettive inesistenze, indipendenti dalla natura pseudo soggettiva della loro interazione. <br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>---</b></p>
+        Le guance riempite da un primo sole timido.<br>
+Sembra, dopo anni, di poter rivedere i colori.<br>
+In una brezza domenicale fuori dal tempo,<br>
+anche i volti conosciuti confessano qualcosa di inscoperto.<br>
+Un pallone rimbalza sulla calce di un muro, senza destinatari.<br>
+Ho nostalgia degli spiragli ambrati e luminosi <br>
+che la tristezza concedeva come un gocciolare affranto in una caverna bruna. <br>
+Ora cresco nel mio corpo, scaldato da un abbaglio interno. <br>
+L'involucro è invertito, e dall'alto di una felicità rapace guardo agognato il seme scuro dove prima stava la mia casa. <br>
+Diviso tra il riconoscimento e la perdizione, cerco di mergere le parti, ma non fanno che alternare. <br>
+La pazienza di aspettare se stessi, con un ascolto muto d'amore proprio, si palesa come una foglia bagnata tra la neve in fuga primaverile. <br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Innominato</b></p>
+        Lo spettro ortodosso <br>
+del rumore maligno che ci accompagna <br>
+può riverberare per sempre nella scura grotta toracica. <br>
+Ma ciò che rimarrà di noi tra un secondo <br>
+o tra cento anni, ne è privato. <br>
+Il grave boato di ciò che affligge ma non ha ambizione di sostituirsi al proprio cuore viene perso, sbiadito nel vociare bianco del tempo. <br>
+Cosicché in noi permeano solo gli effetti degli affanni e non gli affanni stessi, che per anni rimasero inevitabili ed indecifrati. <br>
+Nella storia del nostro sguardo sono stampate l'ombra di un salice sull'acqua, il contorno marcato della propria figura persa in una piazza affollata, le chiome aliene su colline ideali nel sogno abbagliato dei bambini. <br>
+Ma nulla è salvato dal momento, se esso non vince completamente sulla luce della propria psiche. <br>
+Il livido muto che si riflette sull'asfalto, sul volto torbido di chi ho accanto e non conosco, sul mio respiro sospeso, è tanto irrilevante quanto inconoscibile. <br>
+Esso si nasconde arrendendosi alle ragioni del prossimo istante, ma mi tormenta in quello corrente. <br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>---</b></p>
+        Strattono per il mio mondo <br>
+nell'alcova avorio delle costole <br>
+la polvere del mio amore.<br>
+La spreco nella materia e nei suoi luoghi sterminati<br>
+plasmando momenti opportuni<br>
+dagli inciampi dei giorni.<br>
+In questa stanza sola <br>
+Il mio amore si ricompose<br>
+e si sedette esausto.<br>
+Per un momento fui un legno caldo <br>
+in questo camino. <br>
+Fui l'arancio placido di questi muri. <br>
+Camminai tra le rovine assurde della mia storia, prima dell'avvento della cenere.<br>
+Ora sono un passo vuoto e vivissimo,<br>
+un messaggero dell'ascolto nell'imperio della vividezza.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Tema</b></p>
+        Un deludersi denso<br>
+debordava <br>
+dai pistilli cremisi dell'animo mio.<br>
+E rendeva tutto lucido e grigio. <br>
+Ricordo questa lacrima come ricordo <br>
+di essere stato bambino. <br>
+Nel vorticoso girotondo degli attimi.<br>
+Nelle giornate immense,<br>
+in cui il sole affettuoso del pomeriggio tardo <br>
+si fermava a guardarci.<br>
+Il suo saluto curava le afe dei gelsi e scioglieva i cristalli di neve. <br>
+Nella generazione incessante dei dettagli della mia storia, questo per me è il trascorso. <br>
+Uno straordinario tesoro triste, attribuitomi dall'eternità. <br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>---</b></p>
+        Viviamo dentro al guscio di un uovo di ceramica.<br>
+Il rumore colmo del riverbero di una cascata adorna il paesaggio nel diorama. <br>
+Stormi di brevissimi punti dorati descrivono, come su una mappa, paesi lontani depositati tra le rive che scorrono in queste valli immaginarie.<br>
+Attorno, minuscoli alberi pieni del verde di una salute aliena e perfetta, formano colline che appaiono irraggiungibili, ma mostrano incuranti ogni loro singolo dettaglio. <br>
+Nell'ornamento, la prospettiva del grande e del piccolo sono rese nulle dalla fame di armonia. È il nostro giardino percettivo, dove un filo teso all'orizzonte appare nitido quanto una enorme massa terrosa. <br>
+In questo utero sterminato nel quale ci pensiamo immuni dalla grandezza del mondo, preferiamo costruire la nostra grandezza, <br>
+rendere affabili le improponibili proporzioni della realtà, domando le spaventose lacune che la sua complessità impone sul nostro sapere.<br>
+Le immagini del mondo in questa crisalide sono preferibili a quelle di un mondo inconoscibile, privo di rappresentazioni fedeli, reso instabile dalla assurdità febbrile che muove il suo vuoto simbolico.<br>
+Nell'involucro risiede l'unica possibilità di sopportare la percezione della vita per un'altra ora ma anche quella di spegnerla, <br>
+affidandosi alle meccaniche del movimento di un complicato quadrante, motore di un ecosistema inverosimile assemblato dal giolleiere della coerenza. <br>
+Ad attenderci è il buio di una solitudine estrema, opaca verso molti contatti e troppo vulnerabile nei confronti di alcuni.<br>
+Serve invece una nostra osservazione attenta, che faccia filtrare l'insania della verità dalle membrane trasparenti di questa culla, come la luce del sole diffonde densa dall'alabastro.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Tre passi</b></p>
+        Come mai 
+l'acustica dei dialoghi interni è tinta di un riverbero aperto?<br>
+I suoni delle nostre parole brulicano distanti, privati dei loro confini, tra uno sciamare granulare di tetti.<br>
+Rifratti nel cranio collettivo delle identità, i pensieri si propongono come l'eco confuso del momento.<br>
+Sotto di essi, con moto quasi stagionale, si mescolano i vapori fradici della paura, della sordità lacerante del rifiuto. <br>
+Come anche della pena e della grazia, sua paziente cugina.<br>
+Da essa fiorisce l'ordine, come strumento rilevatore del contrasto e dell'amore per la propria natura.<br>
+Oltre, la possibilità di vedersi assimilati a tale natura, evadendo dalla bellezza del problema per abbracciare la bellezza di ciò che già è dato, creato vergine da rielaborazione.<br>
+Ma in via indipendente da simili scelte di abbandono volontario esistono i fiumi, le montagne, i rifugi degli altri uomini. <br>
+Una voce amica, come lo scorrere perlato dell'acqua di sorgente, non rimbomba tra le cavità del nostro io ma ne è invece parte costitutiva. <br>
+La matrice tessuta dell'altro da noi ci incarna, ne siamo suoi figli e suoi soggetti di studio, le nostre parole e i nostri sguardi sono il frutto del suo osservarci.<br>
+Nella selva silente come nel tabernacolo dei teatri vuoti, trionfa l'ascoltatore.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>L'obiettivo della pesca</b></p>
+        C'è un confine ignoto tra l'accettazione del sé ed il suo servilismo.<br>
+La prosperità deriva quasi interamente dal comprendere le insenature, i limiti bellicosi e intrecciati dei due fenomeni.<br>
+Accettarsi è innaffiare le siepi del proprio giardino carnale, dipingendo un'immagine concreta dell'organismo immerso nel mondo tribale dell'altro.<br>
+Questo è un processo attivo, un fine lavoro di mantenimento. <br>
+L'accettarsi infatti richiede un dispendio enorme di dedizione che viene interamente convogliata nella cura di fragilissimi cimeli d'amore.<br>
+Un amore malato da principio è quindi incurabile, ma d'altro canto, non necessita di una terapia nel senso strettamente clinico del termine. <br>
+La sua risoluzione si svolge come l'opposto di una operazione chirurgica. <br>
+Ogni incisione operata sulle nostre membra ci avvicina alla morte, mentre osservare il petto già lacerato al mondo, descriverne i più piccoli particolari per come essi appaiono, porta ad un paradossale successo.<br>
+Finché la guarigione è l'obiettivo, si rimane assoggettati ad una volontà negativa, il nostro giardino è una selva incontrollata che si mimetizza nell'ecosistema sociale. <br>
+I nostri confini sono disintegrati dalla natura critica del miglioramento canonico, e le nostre azioni incisorie tentano di tracciarne altri arbitrari, geometrici, inaccettabili.<br>
+Si è portati a pensare che fermare questa proliferazione esagerata, questa diluizione estrema della propria identità, debba necessariamente richiedere una azione riparativa e compassionevole. <br>
+Un piano biennale promulgato dalla fretta e fittamente dettagliato viene dunque proposto, in piena coscienza della costrizione soffocante che esso porrebbe sulla nostra libertà.<br>
+Al contrario, ogni giorno è sufficiente osservarsi in modo attivo ed acritico, con una fiducia smisurata riposta al di là dell'azione, e non su di essa. <br>
+Occorre lasciare il giardino descriversi nel suo rapporto sincero col silenzio, nel calore secco di alcuni momenti brevi e grandiosi, nelle oscurità serali e nei lacrimanti riflessi dei loro lampioni su questo fiume di liquore.<br>
+Si svela così la salute della nostra anima, che al posto di dimenticare se stessa, si libera del concetto pungente della malattia come un serpente della propria pelle, e lo lascia scivolare nell'oblio più affamato e sordo.<br>
+Queste parole mi sono state suggerite qualche tempo fa da un vento che sembrava portare tra gli stretti muri rossi di questa città, la calma del mare. <br>
+In sottofondo all'animata conversazione di due gabbiani e dal ricordo di un viso, sono condensate lente ed irregolari.<br>
+Da allora eleggo vividamente alla mia totale attenzione un granello di amore al giorno.<br>
+Pazientemente, aspetto che il mondo gli scorra sopra ripulendolo. Lo assicuro ad un mosaico eterno, fatto di amori altrui, precedenti ed inspiegabili. <br>
+Compio questo sforzo in mancanza di un destinatario, con una minuziosità sincera ma indivisibile che conclude se stessa in un gesto continuo e completo. <br>
+Lo faccio perché devo, essendo questa l'unica maniera rimastami di sondare la vita.<br>
+Se si vuole, è la vita stessa a farlo su di me, direzionando un corpo in accordo alle sue tensioni. <br>
+Nel processo alle volte sbaglio e incido, agisco, controllo o peggio, mi abbandono. <br>
+Ignoro il più possibile il senso di dignità meschino che emergendo da tali pratiche, solleva il mio mento sopra alla fronte degli altri rendendomi solo. <br>
+L'accettazione del sé quindi non è morbosa e non è mai servile a nessuno, è osservazione partecipe ed inasoggettata alla passività, ed è estremamente rara. <br>
+Per questo, nella speranza psicotica di incontrarla la confondo con altri aspetti, e trovo inaccettabile la mente di chi fa i miei stessi umanissimi errori, ma preferisce non rendersene conto. <br>
+È proprio questo il servilismo più basso, che mi rende trasparente ed incondivisibile.<br>
+È questa infamia che mi scaraventa sullo stesso piano di molti estranei che con occhi brillanti esercitano sulla vita, o meglio a suo dispetto, la loro azione di svuotamento tremenda, coloratissima, vaneggiante. <br>
+Lo sforzo continuo ed assurdo da compiere non sta quindi nelle nostre mani addestrate ed abitudinarie, ma negli organi silvestri dei nostri sensi e nella sincerità amorevole che orna il mosaico delle vicessitudini.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>---</b></p>
+        I sentimenti nel vuoto sono innominabili.<br>
+Non hanno un individuo che ne faccia esperienza ma solo un corpo ipotetico, dove accadono. <br>
+Di per sé, le reazioni fisiologiche a loro associate sono una facciata vuota, descrivono un effetto latente, l'assenza di un destinatario.<br>
+L'ambiente, inteso come generatore di contesto, consegna a quel corpo altrimenti sordo la sola chiave per ottenere un significato, sempre personale e in vari gradi comunicabile, da cui scaturisce l'umano.<br>
+E nel ritrovare se stesso, la sorpresa è paralizzante.<br>
+In una semplificazione irragionevole, siamo privati dei nostri gradi di libertà, in balia del lineare urbano, <br>
+della ferocia di un cespuglio irto nel sole del pomeriggio, dello scorrere secco delle mani di qualcuno tra le proprie, che sembra sussurrarci un infinito.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>---</b></p>
+        E se mi girassi di dentro ad un tratto, nella mia solitudine sincera?<br>
+Nel più grottesco sguardo a me stesso<br>
+e nella mia risposta di occhi liquidi, espansi, incastrati nell'apertura più completa.<br>
+Sorretta da un nodo sottostante, la cravatta scomoda della disperazione si agiterebbe. <br>
+Scorrerebbe come corda di campana, abbassandomi il capo di nuovo a simulare la paura, una trappola interamente cieca alla cavia del mio corpo.<br>
+E mentre si chiude qui il ciclo autosostenuto del problema, in realtà la questione della solitudine è molto più complessa.<br>
+Essa alimenta se stessa, è vero, ma come una alluvione lentissima e cristallina, modifica il paesaggio di altri aspetti della propria umanità.<br>
+Fa scoprire, ad esempio, che la miseria non è uno svantaggio su tutti i fronti.<br>
+Senza di essa, infatti, la vita appare priva di febbre e senza febbre si vive nella cura completa, in costante presenza di una luce bianca, come pazienti.<br>
+È una assurdità, ma l'alternativa ad ignorare la propria febbre sembra vivere nella sua completa fobia. <br>
+Ciò porterebbe ad ordinare tutti i propri giorni in una fila retta e composita, a coltivare il passatempo obbligatorio e tassativo del decorare i propri trascorsi.<br>
+Al contrario, la solitudine ci licenzia da questo onere, perché ci apre a dei tremori primali, esponendo il pericolo ai nostri sguardi e non ritraendolo mai.<br>
+Ed è allora il trascorso a decorare noi, che ci facciamo giardini selvaggi e indifferenti al vento irregolare del presente. Esso a volte si dilata e un respiro alato di fragilità si espande tra i nostri cespugli diffidenti. <br>
+Altre volte si comprime sotto la propria pressione, costringendo la nostra natura impervia a mostrarsi.<br>
+Ma non rimane mai sotto al nostro volere, che cronico tende i suoi nervi ad un sole impietoso ed inutile, lasciandoci come un larice d'inverno, nell'ambizione sacra dei suoi rami spogli.<br>
+Rimane allora, in quel caso, solo la vita in quanto a sforzo a sorreggerci ed è essa soltanto la nostra crudele salvezza, nonché il nostro unico destino.<br>
+Non c'è quindi solo morte dove c'è solitudine, a volte invece c'è bellezza nelle sue forme più fondamentali.<br>
+Ma questa conclusione è inaccessibile a chi conosce l'amore nelle sue vesti lenitive e cosmopolite. E allora molti non sviluppano la dimensione della poesia poiché in loro, il trascorso non può agire. <br>
+I loro brividi, placati dal macchinario della vicinanza organizzata, rimangono spenti sotto ad un tappeto candido a nascondere l'enorme oblio innaturale dove il sentire viene soppresso. <br>
+I sensi smettono di meritare memoria, e solo gli eventi, pensati dal loro inizio ed educati a morte dalle aspettative, vengono dipinti a colori orribilmente vivaci nel biancore di fondo.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Mattino di sogno</b></p>
+        Crollava la chiesa sul mare,<br>
+nel mio sogno.<br>
+Mia madre era presente,<br>
+ma qualcos'altro mancava.<br>
+Dalle siepi alla sabbia,<br>
+ruggivano molli le supposizioni<br>
+ed i modi di vivere passati.<br>
+Non tanto le stagioni della mia maturazione,<br>
+ma tutto ciò che avvenne prima della mia esistenza,<br>
+sembrava voler uscire dal suolo.<br>
+Il paesaggio cambiato offriva percorsi diversi,<br>
+bloccava alcuni passaggi e ne apriva altri.<br>
+Ma come una coltre di neve, <br>
+le giornate si plasmavano al tempo scivoloso del racconto. <br>
+Ogni aspetto della vita in quell'angolo inventato poteva scomparire in qualsiasi momento. <br>
+E quando lo fece, mi riconobbi sulle rocce della veglia. Più distante che mai dai miei gesti, dalle punte delle mie dita. <br>
+Fissandomi incredulo.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Il cuore di cotto</b></p>
+        Se fai del male a te stesso vivrai la vita vedendo mediante lenti a specchio prodotte dal male che hai creato, e dal suo risultato nel tuo campo visivo.<br>
+Il moto referenziale dell'atto lesivo, ad esempio, si riflette esattamente nell'impalcatura a spire della difficoltà, e si conclude nella minaccia del problema.<br>
+Il processo è autosufficiente, perlomeno nel procacciare risorse mentali con la frequenza necessaria a scuotere la presenza di struttura nelle cose, alimentando oblio e caoticità al servizio del dimenticarsi.<br>
+Una nuova trappola incombe, poiché dimenticarsi di se stessi è un illusione dall'effetto simile al vivere ogni giorno come nuovo, e il sentire annesso è ingigantito al di fuori dalle sue proporzioni fisiologiche.<br>
+Da un lato, vestire le pelli di un morto, alla ricerca straziante dello ieri nei prati dell'identità.<br>
+Dall'altro, scoprire la propria carne alla garza del mondo, sentendo ogni fibra rotonda salire dal nulla.<br>
+Occorre farsi spazio tra i propri eroi viscerali e i manichini del loro trapasso nel cosmo dell'atto. <br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>La Vela</b></p>
+        Al di là dei legami non ci avevo mai guardato davvero.<br>
+All'inizio c'è solo grigiore sordo di polvere e spazio illimitato.<br>
+Poi appare un bosco scuro.<br>
+La bellezza è quasi oppressiva <br>
+nella mancanza di ricorsività, <br>
+nel placarsi dei vortici autogeneraritivi del contatto.<br>
+Ogni linea uscita dagli orli delle nostre mappe affettive sembra espandersi, oltre le allegorie, nell'estetica asciutta.<br>
+E dal bosco si delinea una città di mare.<br>
+La leggerezza si nutre del cemento come salsedine e il tempo scorre lontanissimo.<br>
+Essere stranieri per definizione può risultare terapeutico in determinati casi.<br>
+Consumatasi la griglia statica dell'urbanistica introspettiva, riemerge un nodo alla gola. Plasmato da un liquido d'oro <br>
+il silenzio si espande,<br>
+e si torna bolle di sapone.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Il perimetro</b></p>
+        La cosa di cui ho paura <br>
+        È me stesso.<br>
+        Di quanto bene possa fare, di come lo ignori.<br>
+        Nella bolla sonora, si diffondono le supposizioni  <br>
+        come pescigatto.<br>
+        Ad ogni svolta fluida e decisa<br>
+        sbandierano il lutto della possibilità di prevedere e di riflesso, di comprendere.<br>
+        Troneggiano le cronache euristiche, i piani calibrati sulle incertezze ruvide come il cemento, il tentativo romantico di renderle vapore.<br>
+        Incurante ed incosciente che ciò lascerebbe me stesso in una città vuota, dentro ad una matrioska sigillata, e tutte le mie copie a vagabondare cieche nella mente di chi mi pensa.<br>
+        Fino a che qualcuno non mi penserà più, e le loro febbri saranno spente.<br>
+        Allora è questa la danza che trascina la mia ricerca. Il richiamo alla mia presenza nel mondo degli altri non mi attrae per questioni biologiche, ne per slanci uniformi di sentimento; <br>
+        quelle sono solamente le meccaniche della sua malia ancestrale.<br>
+        La significanza si nasconde invece nella passione dietro al generarsi e allo spegnersi delle mie idee.<br>
+         Al loro intingersi d'altro per poi tornare nel loro alveare e finalmente cambiarmi, anche di un solo atomico grado.<br>
+        In alternativa, la morte dell'incertezza causa la sconfitta dell'attrito. Dopo un sobbalzo, si innalza il trionfo malvagio nello scivolare pesante di miriadi di redini legate alla propria persona.<br>
+        Segue il venir trascinato da essa, dipendendo completamente dalle sue prenozioni.<br>
+        Dall'ammissione delle proprie impossibilità deriva il premio del controllo, come anche la responsabilità nell'arte del dosarlo. <br><br>  
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Blatero (tra le mie colonne)</b></p>
+        La mia bellezza svanirà presto.<br>
+Ed escluso il tentativo invano di usarla per il bene degli altri, non ne ho fatto ulteriori utilizzi.<br>
+È lei stessa a ribollire ora spingendo al di fuori, in una stanza di una freschezza logora, le mie lacrime.<br>
+Era lei stessa ad anestetizzarmi nella solitudine, posticipando il male più grande.<br><br>
+
+Ma le parole non servono davvero a niente, in questi casi.<br>
+Perché se esiste una colpa quella è mia, perché mia è la bellezza ed il compito di sopravviverci.<br>
+Non so per quanto potrò permettermi di perdere, ancora.<br>
+Vengo mutato, progressivamente, dall'esprimere qualsiasi forma di significato.<br>
+Perché la mia bellezza sta svanendo, e presto diverrà una corsa all'oro, il provare qualcosa.<br><br>
+
+Non serve chiedere aiuto, poiché ad ora, nessuno può raggiungere così tanto dentro di me dal cambiare gli ordini costituiti.<br>
+E quindi sarò solo, eternamente, in modo così universale da non potermene mai accorgere, fino alla mia morte. <br>
+Oppure qualcosa succederà e conoscerò la vittoria, l'ebbra deficiente della coordinazione. <br>
+Perché le mie prospettive debbano essere così tenebrose, non lo riesco a capire.<br><br>
+
+Ma se ci fosse il nulla su cui inciampare, mi si slaccerebbero le stringhe, in una comicità violante e primordiale pesterei sonoramente il culo per terra.<br>
+E sprofonderei nel mio corpo, mi vedrei di dentro, per una volta, senza volerlo.<br>
+Scrutata l'assenza di salvezza, di nuovo, non so cosa farei.<br>
+Forse starei immobile come un animale al macello, col mento infilato nel petto e il cuore in gola, ma ora non riesco a pensarci.<br>
+Eppure aiuterebbe un cambio repentino, uno schiaffo alla introspezione sacra che forzi il mio viso a fissare lo stomaco, le mie viscide pieghe cremisi annodarsi su se stesse, l'impossibilità di azione delle mie corde vocali. <br>
+Invece no, non riesco a pensare ad un lamento in più senza voler terminare tutto ciò di cui ho esperienza.<br>
+E come già esplorato, alzare la testa e sorridere è un buon modo di agire, ma non sembra un buon modo di esistere.<br>
+Voglio essere una macchina, o in alternativa, un regalo ben accetto.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Il dirigibile</b></p>
+        Dei simboli leggeri ed immutabili<br>
+non so ancora la lingua,<br>
+ed essi non sono la mia arte.<br>
+Perché mi cambiano più di quanto voglia,<br>
+l'evocarli mi congela la pelle.<br><br>
+
+Perdere e perdere ancora <br>
+nella danza scomposta del futuro anteriore,<br>
+nelle scene di azioni vitali pacate.<br>
+Ogni giorno, sulle vie di casa, <br>
+il momento di una disfatta trionfale è posticipato nella nebbia delle aspirazioni.<br>
+Quello della sconfitta quotidiana è troppo vicino al mio naso e viene inglobato nella propriocezione, fino a collassare in nausea. <br>
+Cantare il destino non lo attira a sé, ma anzi alimenta il malanno.<br><br>
+
+Ed i simboli rimangono, spostati agevolmente dalla luce in una stanza ma non dalla mia intera volontà.<br>
+Abbracciarli è inutile, poiché loro indifferenti mi porterebbero ovunque, in un moto vertiginoso.<br>
+Nei cambi delle stagioni, nel mantice del vento, nella natura meccanica, mi guarderebbero con gli occhi vuoti di un predatore. <br>
+E senza funzione, senza il traino lacerante di un motivo, mi aprirebbero il petto.<br><br>
+
+Voglio essere io ad aprirmi il petto.<br>
+A cercare un passaggio attorno alla repulsione continua del mondo.<br>
+A tastare alla cieca ogni punto nell'inaccessibilità concentrica del significato.<br>
+E un giorno folgorarmi, trovare una breccia, un amore felice, scoprire del nuovo.<br>
+Il generare a quel punto avrebbe il solo scopo di certificare quel riuscito contatto, senza aggravarlo del peso della gloria o del rifiuto.<br><br>
+
+Ma non so avvicinarmi, non so come l'uomo si possa permettere, in un'ignoranza vasta e perfetta, di non esser lontano.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Il principio</b></p>
+        Il principio è complicato, perché porta la spiegazione, anche se implicita o inaccessibile, del resto che lo segue.<br>
+Inoltre, prima di esistere, il principio può riferirsi a qualsiasi evento.<br>
+Nel principio, la potenzalità dell'avvenire si nasconde perfettamente in una sensazione di assenza, lampante ma imperscrutabile.<br>
+Se pertiene ad un evento esterno, tale assenza è chiamata mistero dagli uomini, e riti si scatenano per appacificarla, nella speranza invana di renderla un simbolo mite.<br>
+Un moto di reverenza è irresistibile a qualsiasi uomo, similmente a ciò che succede quando sopraggiunge la fine, in cui la potenza è esaurita e il disordine si fa carico dell'evento da quel momento in eterno. 
+La decorazione assume una funzione imprescindibile nelle culle come nelle tombe fiorite.<br>
+Se è invece parte degli uomini, questa stessa assenza prende il nome di segreto, ed ogni uomo ne porta uno con sé.<br>
+Riporterò di seguito le esplorazioni del mio segreto, nella titanìa ossessiva di metterlo in parola.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Il lascito e la fuga</b></p>
+        Quando i suoni della terra abbandonata ruggiscono più forte,<br>
+la natura si nasconde ai nostri sguardi,<br>
+nel riflesso accecante dei tumulti interni.<br>
+I nostri mezzi, poveri ed improvvisati, si avvicendano per far ruotare il tempo.<br>
+Osservare diventa più semplice,<br>
+ma capire più complicato.<br>
+Tra noi e il resto s'impone una sfera ignota <br>
+con cui l'interagire è compromesso.<br>
+Tutto sembra scorrerci sopra <br>
+e l'equilibrio che dà presa ad un pensiero è perso.<br>
+Rimane un fluire continuo e rigonfio, <br>
+come le onde della risacca,<br>
+silenti nel mare al mattino presto.<br>
+Gli stati abitudinari tornano, ma in vesti più eleganti, in forme nuove e più vertiginose.<br>
+La prepotenza nei dettagli si dilata ricercando il proprio posto.<br>
+La cronaca dell'avvenire prossimo si scioglie e si fa assordante.<br>
+Da essa, indistinguibili, le origini chiamano.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>L'aeroporto</b></p>
+        Ogni volta che vado in aeroporto<br>
+voglio innamorarmi e mi sento stupido.<br>
+Non so cosa trarne,<br>
+è come se da tutti gli sguardi capaci, sicuri e maligni me ne aspetti uno sinceramente perso.<br>
+Voglio vedere degli occhi liquidi<br>
+fissarmi per sbaglio,<br>
+non voglio più esser da solo.<br>
+Perchè da solo mi sento debole<br>
+e il mondo mi appare grande, quasi invalicabile, anche quando so che non lo è.<br>
+E tutto ciò che voglio non riesco ad ottenerlo per ora, per ragioni a me onestamente ignote.<br>
+Non ho bisogno di aiuto,<br>
+mi piacerebbe solamente coesistere.<br>
+Mi piacerebbe davvero<br>
+alle volte, al di là di ogni cosa.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>L'equilibrista parte seconda</b></p>
+        Come il pianto, scavando in quel che è dimenticato trova posto nel futuro di un uomo, così vorrei trovare io nello scambio, nella parola, nell'affetto, un motivo che mi spinga <br>
+        sinceramente al generare qualcosa di nuovo, all'evolvermi.<br>
+        Vorrei evitare i simbolismi, i pozzi bui della comunicazione, il collante dei sorrisi e la scusa incenerita delle rivoluzioni, vorrei lasciare il resto sposarsi con me senza <br>
+        che l'ultimo l'assopisca metodicamente.<br>
+        Vorrei avere qualcuno a cui dire queste parole e qualcuno che me ne dica altre, in grado di portarmi altrove, senza coprire di veli il trascorso, di ombre scure le stagioni fredde, <br>
+        ne di luce avida le estati crudeli.<br>
+        Nella mia spinta vorrei unirmi ad una natura incurante, che puntuale mi fissa negli occhi e seguendo una saggezza attribuitale da me stesso, non reagisce.<br>
+        Ai miei nervi graffiati, alle mie guance ridotte al dirotto di disperazioni giovanili, al tempo che sposta il globo e mi trascina nella sua violenza.<br>
+        Non so chiedere aiuto, e se ne fossi in grado, non avrei a chi rivolgermi.<br>
+        Cerco contrasti a qualsiasi prezzo, per favore contattatemi.<br>
+        Sono allergico al resto, ma lo amo di un amore sincero, decimato, puerile.<br>
+        Non ho tra i miei piani l'anestesia dell'agire, poiché l'agire so avere un altro ruolo nella vita delle persone grandi.<br>
+        E nel mio viaggio per diventare grande, ogni tentazione di nascondersi è un enorme dirupo.<br>
+        Mi credo un equilibrista, ma non ho mai conosciuto nessuno che abbia così tante difficoltà nel non cadere. Non posso sapere, d'altro canto, se qualcuno ancora non ne sia caduto.<br>
+        Per alcuni forse è un gradino, per altri la morte.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Nessun passeggero</b></p>
+        Sembra colmo di sospiri altrui, questo posto.<br>
+L'aria è bianca e densa ma traspare una calma distesa.<br>
+Sono sotto al livello del mare.<br>
+Tra un tavolo e l'altro mi appoggio e mi domando.<br>
+Se non mi spaventassi mai, che succederebbe a quella voce che mi detta le altitudini? <br>
+L'allarme che interrompe la danza tacita dei miei pensieri ed evacua il significato in parola, forse si contrarrebbe al silenzio.<br>
+Che cosa accadrebbe al mio corpo immerso nell'antro violento del sempre?<br>
+Lo voglio sapere con esattezza.<br>
+Ma per fare ciò, viverlo sembra l'unica alternativa.<br>
+Ma vivere per me è camminare in salita ed è la voce, sacra ed odiata, a dettarne l'altitudine.<br>
+Voglio prescindere da questa bussola maligna e seguire i fiumi a valle, aspettando il passare delle stagioni, se necessario.<br>
+Nel caso io resti convinto, nell'accettare sia bello dimenticarsi del vivere nel nutrire il vivere stesso, allora dovrei generare vita da dentro di me al di fuori <br>
+e non fermarmi ai nervi della ragione, alle prime porte serrate del percepire estremo.<br>
+Non c'è scusa che impedisca ad una personalissima corte suprema dal giudicarmi, ogni mattino, colpevole di stasi.<br>
+D'altro canto, pena è la stasi stessa, la corte è forse corrotta, il mio camminare bloccato da qualcosa di irrilevante.<br>
+Un avvicendarsi lapidario e scomposto sembra aver marcato per me l'inizio del sentiero per diventare grandi.<br>
+Forse non ho mai saputo che non lo sono davvero, non lo sono per niente.<br>
+Mentre ripenso al tentativo, la gentilezza mi toglie il respiro per consegnarmene un altro, e di nuovo la mia rincorsa è spezzata, la potenza dell'atto inibita.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Disattesi</b></p>
+        Guardando negli occhi le persone, alcune volte traspare la natura.<br>
+        Una fonte di ulteriorità che svela un meccanismo, ma mai un pensiero, alla base della loro esistenza e lo fa a partire da una crudeltà insopportabile.<br>
+        Viene ignorato l'umano, spenta la voglia di scambio, assopita la pietà metodica della comunicazione.<br>
+        Rimane un percepire cieco, incognito, al di là dei propri mezzi.<br>
+        Ogni simbolo, ogni slancio di significato che si era posto in quello sguardo viene sospeso.<br>
+        Sembra di vedere la corteccia di un albero, un'ape morire su un fiore, la fine di una stagione.<br>
+        Forse è per colpa di questa latenza che alla bellezza non ci si può preparare.<br><br>
+                
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Organo cavo</b></p>
+        Orribile come <br>
+alle volte le parole <br>
+sembrino recipienti dorati.<br>
+Vibrano custodendo <br>
+una solare inaccessibilità.<br>
+Cessata la premonizione tribale<br>
+il tempo passa disgraziato<br>
+e lo svuotarsi accade, senza potersene accorgere.<br>
+Il lutto del significato coincide col tramonto di un giorno<br>
+come dell'altro.<br>
+È un passo veloce, non frettoloso<br>
+ma nulla di me lo sopporta.<br>
+Riempirò i recipienti di lacrime spese altrove.<br>
+E farò finta siano i miei giocattoli,<br>
+per dimenticarmi d'essere un burattino.<br>
+O forse vorrò essere uomo <br>
+senza rimpiangere il loro delirio.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Il Catino</b></p>
+        Se solo potessi dare <br>
+        tre litri di luce propria<br>
+        agli indecisi,<br>
+        m'infradicerei.<br><br>
+        
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+
+        <p><b>Per me</b></p>
+        Dopo alcuni anni <br>
+a viver senza fiato,<br>
+potresti trovarti su una barchetta rossa<br>
+danzando nel modo in cui meno ti conviene.<br>
+Dal tuo sguardo lontano, sentendoti <br>
+così diverso da chi sapevi <br>
+che ogni interesse di coerenza ti è sospeso.<br>
+Il suo esprimersi abbandonato dai ricordi<br>
+ed attorno tutto il mare.<br>
+In questa concessione<br>
+qualcosa cambia? <br>
+e a qualcosa importa?<br><br>
+
+Potresti trovarti in un labirinto silvestre a rincorrere <br>
+chi conosce dell'amore e del tuo nome<br>
+e chi finalmente sa non farsi prendere.<br>
+Ad un tratto potresti provare<br>
+un soffio<br>
+ed oltre la paura di esserti perso,<br>
+lanciarti verso il tentativo<br>
+nei tuoi pugni chiusi <br>
+d'essere meno di un bambino.<br>
+A qualcosa importa? <br>
+I simboli che ne gemmano<br>
+custodirebbero il tuo interesse?<br><br>
+
+I fiori, accidenti del generarsi, <br>
+non sono mai stati in imbarazzo.<br>
+Ne le piume del pavone,<br>
+nemmeno la polvere sulle cornici di rame.<br>
+E allora un modo <br>
+non so quale <br>
+ci sarà <br>
+per essere qui.<br>
+Magari non ora <br>
+Ma almeno in questo posto.<br>
+Ti auguro di capirlo, appena puoi.<br><br>
+
+<br>
+◦       ◦       ◦       ◦       ◦   
+<br>
+    
+        <p><b>Ad ogni respiro mi aiuto </b></p>
+        È Ottobre?<br>
+Lo straordinario sta per farsi scappare i suoi scherzi brillanti.<br>
+E divertendosi <br>
+in un gioco senza repliche crea un uomo diverso <br>
+ogni anno che passa,<br>
+nel cui egli dolcemente accoglie <br>
+il sapersi mutato <br>
+tra le foglie bagnate.<br><br>
+
+È Ottobre?<br>
+Ottobre saluta<br>
+ma ancora non è arrivato.<br>
+L'attesa del nuovo riempie i polmoni <br>
+e lancia i nostri voleri un poco più in là.<br>
+È bello dimenticarsi di vivere <br>
+anche se poi nel vivere<br>
+torna il rosso marcato,<br>
+il quotidiano estratto da tracce <br>
+gelide sopra la carne,<br>
+la voglia di provare<br>
+che si impone al di là di noi<br>
+come per le foglie il vento,<br>
+definendoci senza scopi ulteriori.<br><br>
+
+Ottobre non è tra di noi,<br>
+anche se le sue intenzioni dorate <br>
+infondono una tale voglia di aiutarsi <br>
+che mi sono dimenticato se faccia alcuna differenza.<br><br>
+
+Perché se si è la natura,<br>
+non serve pensare alla propria natura.<br><br>
+
+
+ 
+
+        <hr>
+        <footer><small>pabo</small></footer>
+    </main>
+
+    <script>
+        // Get the current URL path
+        const currentPath = window.location.pathname;
+
+        // Get all the links in the nav menu
+        const navLinks = document.querySelectorAll('nav ul li a');
+
+        // Loop through each link and compare its href to the current path
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPath) {
+                // Add the "active" class to the matching link
+                link.classList.add('active');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
