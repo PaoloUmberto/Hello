@@ -207,6 +207,18 @@
         <h1>Dimmelo all'orecchio</h1>
         <h2 id="one title"></h2>
 
+        <!-- Audio Player -->
+        <div style="margin-bottom: 20px;">
+            <audio id="audioPlayer" controls style="display: none;">
+                <source id="audioSource" src="/6b96e22d4eb5c1277526cfd5de7eb35bf8c7dd84/Dimmelo_orecchio/audio1.ogg" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <input type="file" id="audioFileInput" accept="audio/*" style="margin-bottom: 10px;">
+            <button onclick="playAudio()">▶ Play</button>
+            <button onclick="stopAudio()">■ Stop</button>
+        </div>
+
+
 <br>
 ◦       ◦       ◦       ◦       ◦   
 <br>
@@ -214,7 +226,7 @@
         Ho un grande problema nel dichiarare le mie intenzioni. Sono sempre stato molto bravo ad iniziare cose nuove, e molto scarso nel finirle.
         Noto che per preservare la mia dote iniziativa, e migliorare quella finalizzativa, mi aiuta il non parlare. Il non dichiarare le mie intenzioni ad un'altra persona. 
         La coscienza del fatto che questa altra persona terrà la mia intenzione nel retro della sua mente disturba costantemente il mio iniziare, e mi impedisce di terminare qualsiasi cosa.
-        Tuttavia, risulta molto diffile iniziare e finire senza avere degli specchi, senza mai sentire le proprie idee e poterle rivalutare, confrontandole con una mente fresca e ritrovata.
+        Tuttavia, risulta molto difficile iniziare e finire senza avere degli specchi, senza mai sentire le proprie idee e poterle rivalutare, confrontandole con una mente fresca e ritrovata.
         Per questo ho deciso di scrivere qui le mie note all'orecchio. Bisbigliando le mie intenzuioni così che io stesso possa ascoltarle in futuro, ma che non le debba condividere esplicitamente con qualcuno in particolare. 
         Metterò quindi in questo posto le cose per me più imbarazzanti di tutte: le cose "sociali" e quelle "culturali".
         <br>
@@ -245,6 +257,33 @@
 
         <hr>
         <footer><small>paolo</small></footer>
+
+        <script>
+            const audioPlayer = document.getElementById('audioPlayer');
+            const audioSource = document.getElementById('audioSource');
+            const audioFileInput = document.getElementById('audioFileInput');
+
+            audioFileInput.addEventListener('change', function(event) {
+                const file = event.target.files[0];
+                if (file) {
+                    const fileURL = URL.createObjectURL(file);
+                    audioSource.src = fileURL;
+                    audioPlayer.load();
+                }
+            });
+
+            function playAudio() {
+                if (audioPlayer.src) {
+                    audioPlayer.play();
+                }
+            }
+
+            function stopAudio() {
+                audioPlayer.pause();
+                audioPlayer.currentTime = 0;
+            }
+        </script>
+
     </main>
 
     <script>
